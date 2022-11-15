@@ -1,0 +1,34 @@
+Queries We Tested
+
+Software Engineering
+Cristina Lopes
+Master of Software engineering  
+	(Our issues at first favored stop words as we didn't use a length normalizer, after 	implementing it, our results "improved")
+	(finds "master" "of" "software" "engineering" -> No n-gram)
+Disneyland
+California Adventure 
+    (finds more "adventure pages" than "california", also no 2-gram)
+Breakfast Lunch Dinner 
+Basketball 
+Phone Number 
+Richard Pattis 
+Middle Earth 
+    (finds pages for "middle" and "earth" but due to lack of 2-gram indexing, there are not many "middle earth" pages)
+Doge 
+    (finds only 4 pages since this word is uncommon)
+Brad Pitt 
+    (finds pages for "brad" and "pitt" -> No 2-gram indexing)
+Google 
+Temperature of the sun 
+    ("temperature" "of" "the" "sun" same thing -> no n-gram indexing)
+Cole Schiffer 
+    (finds pages for "cole" and "schiffer" -> good because the literal string "cole schiffer" doesn't exist)
+Aldrich
+Where do babies come from 
+    (did not teach me where babies come from but saw a cute picture of a baby seagull)
+Watermelon
+Candlestick
+2016
+Pox
+8675309
+Computer Science and Engineering
