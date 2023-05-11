@@ -1,5 +1,5 @@
 # Search Engine
-## Files we used:
+## Files used:
 pip install:
 flask,
 ntlk,
