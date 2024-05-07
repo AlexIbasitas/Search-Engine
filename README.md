@@ -14,6 +14,8 @@ HOW TO USE
 INDEX CREATION
 
     Download the DEV folder to the project folder
+    python -m venv venv
+    .\venv\Scripts\activate
     source venv/bin/activate
     python3 invertedIndex.py
     This will create files "docHash.json", "offsets.json", and "index.txt" (as well as numerous fragment*.txt files) which should automatically be used by the query search programs based on filename
